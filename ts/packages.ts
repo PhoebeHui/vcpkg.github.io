@@ -5,7 +5,7 @@ let wording = {
     version: 'Version: ',
     more: ' More...',
     compat: 'Compatibility:',
-    website: 'Website',
+    website: 'Homepage',
     star: 'Star',
     'total-pkgs': 'Total Packages: ',
     'no-results': 'No results for ',

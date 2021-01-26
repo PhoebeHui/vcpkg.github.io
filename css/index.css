@@ -263,37 +263,26 @@ header.masthead {
 }
 
 .why-us-text p {
-    color: #000000;
+    color: #000;
     font-size: 16px;
     padding-top: 0px;
     margin-bottom: 10px;
 }
-.footer {
-    height: 25em;
-    width: 100em;
-    border: 5px solid green;
-    position: relative;
-    box-sizing: border-box;
-    margin-left: -1em;
-    display: inline;
-}
 
-.footer-img {
-    position: relative;
-    height: 25em;
-    width: 100em;
-    /*margin-left: -1em;*/
-    margin-top: 5em;
+.footer {
     background: url('/assets/external-icons/footer.png') no-repeat center bottom;
     background-size: cover;
-    border: 5px solid red;
+    /*border: 5px solid green;*/
+    height: 25em;
+    width: 90em;
+    margin-left: -1em;
+    margin-bottom: 0px;
 }
 
 .footer-favicon {
     position: relative;
     height: 5em;
     width: 10em;
-    border: 5px solid blue;
     background-size: cover;
     background: url('/assets/mark/favicon-footer.png') no-repeat left top;
     margin-top: 10em;
@@ -302,12 +291,9 @@ header.masthead {
 
 .contact-font {
     font-size: 30px;
-    /*font-weight: 600;*/
-    color: #FFFFFF;
-    text-align: center;
-    /*border: 5px solid red;*/
-    margin-left: 0.5em;
-    margin-top: -0.2em;
+    color: #FFF;
+    margin-left: 1em;
+    margin-top: -0.1em;
 }
 
 .row {
@@ -322,26 +308,23 @@ header.masthead {
 }
 
 .col-footer {
-    margin-top: -5em;
-    margin-left: 30em;
+    margin-top: 10em;
     font-weight: bold;
-    border: 5px solid green;
-    text-align: center;
-    /*position: relative;*/
+    padding-bottom: 5px;
 }
 
 .col-touch {
-    margin-top: -5em;
-    margin-left: 10em;
+    margin-top: 10em;
     font-weight: bold;
-    border: 5px solid blue;
+    padding-bottom: 5px;
 }
 
+.no-marg {
+    margin-top: 10em;
+}
 
 .media-link {
     margin-top: 0em;
-    margin-left: 10em;
-    /*border: 5px solid green;*/
     padding: 0px;
 }
 
@@ -351,13 +334,6 @@ ul li {
 
 .padding {
     padding: 15px;
-}
-
-.col-md-8 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .col-container {
@@ -378,13 +354,7 @@ img.nav-icon {
         text-decoration: none;
     }
 
-/*h1 {
-    color: #4970aa;
-}*/
-
-
 p {
-    color: Black;
     margin: 0;
     font-family: "Arial";
 }
@@ -395,6 +365,26 @@ p {
 /*.media-link {
     padding: 0px;
 }*/
+
+.email {
+    background: url('/assets/external-icons/email.png') no-repeat left top;
+    padding-left: 30px;
+}
+
+.slack {
+    background: url('/assets/external-icons/slack.png') no-repeat left top;
+    padding-left: 30px;
+}
+
+.discord {
+    background: url('/assets/external-icons/discord.png') no-repeat left top;
+    padding-left: 30px;
+}
+
+.github {
+    background: url('/assets/external-icons/github.png') no-repeat left top;
+    padding-left: 30px;
+}
 
 .button:hover {
     background-color: #4879c4;

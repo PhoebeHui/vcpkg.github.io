@@ -6,7 +6,6 @@
 .container {
     height: auto;
     width: auto;
-    /*border: 5px solid blue;*/
     box-sizing: border-box;
 }
 
@@ -14,14 +13,12 @@ header.masthead {
     position: relative;
     background-size: cover;
     padding-top: 5rem;
-    /*padding-bottom: 5rem;*/
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .vcpkg-content {
     height: 80%;
     width: 80%;
-    /*border: 5px solid green;*/
     box-sizing: border-box;
     position: relative;
 }
@@ -34,18 +31,14 @@ header.masthead {
 .title-text {
     text-align: left;
     position: absolute;
-    /*border: 5px solid green;*/
     margin: 7em 0 0 25em;
-    /*display: inline-block;*/
     transform: rotate(25deg);
-    /*margin: 0;*/
-    /*vertical-align: left;*/
 }
 
 .vcpkg-title {
     font-size: 48px;
     font-weight: 600;
-    color: #000000;
+    color: #000;
 }
 
 .logo-img {
@@ -59,7 +52,6 @@ header.masthead {
     width: 950px;
     margin: 5em 0 0 -7em;
     position: relative;
-    /*border: 5px solid red;*/
     background: url('/assets/mark/mark-upper-left.svg') no-repeat left top;
     background-size: cover;
     transform: rotate(-25deg);
@@ -71,15 +63,12 @@ header.masthead {
     position: absolute;
     right: -37em;
     top: 25em;
-    /*margin: 10em 0 0 0;*/
-    /*border: 5px solid red;*/
     background: url('/assets/mark/mark-lower-right.svg') no-repeat right bottom;
     background-position: right -11em bottom -5em;
     background-size: cover;
     transform: rotate(-25deg);
     overflow: hidden;
 }
-
 
 .vc-btn {
     background-color: #3366ff;
@@ -97,7 +86,7 @@ header.masthead {
 }
 
 .pkg-btn {
-    background-color: #FFFFFF;
+    background-color: #fff;
     color: #3366ff;
     border-radius: 6px;
     text-align: center;
@@ -138,10 +127,8 @@ header.masthead {
 
 .questions {
     height: 300px;
-    /*line-height: 20px;*/
     width: 50%;
     color: #000;
-    /*border: #000000 solid 2px;*/
     margin-left: 520px;
     margin-top: 240px;
     position: absolute;
@@ -151,11 +138,8 @@ header.masthead {
 }
 
 .what-is {
-    /*    margin-left: 5%;
-    margin-right: 5%;*/
     font-size: 20px;
     margin-top: 1rem;
-    /*  margin-bottom: 5rem;*/
     text-align: left;
 }
 
@@ -178,7 +162,7 @@ header.masthead {
 
 .title {
     display: flex;
-    background-color: #ffffff;
+    background-color: #fff;
     color: black;
     align-items: center;
     text-align: center;
@@ -193,7 +177,6 @@ header.masthead {
     width: 340px;
     margin-top: 5px;
     display: inline-block;
-    /*border: 5px solid green;*/
     padding-bottom: 5px;
 }
 
@@ -220,7 +203,7 @@ header.masthead {
 }
 
 .examples {
-    color: #000000;
+    color: #000;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -233,7 +216,6 @@ header.masthead {
 
 .border-custom {
     padding: 0;
-    /*border: 1px solid #4970aa;*/
 }
 
 .why-us-row {
@@ -291,7 +273,7 @@ header.masthead {
 
 .contact-font {
     font-size: 30px;
-    color: #FFF;
+    color: #fff;
     margin-left: 1em;
     margin-top: -0.1em;
 }
@@ -307,20 +289,24 @@ header.masthead {
     align-items: flex-start;
 }
 
-.col-footer {
-    margin-top: 10em;
-    font-weight: bold;
-    padding-bottom: 5px;
+.footer-font {
+     font-weight: bold;
 }
 
-.col-touch {
-    margin-top: 10em;
-    font-weight: bold;
-    padding-bottom: 5px;
+li a {
+    color: #fff;
 }
+
+/*.footer a.hover {
+    color: white;
+}
+
+.footer a.active {
+    color: white;
+}*/
 
 .no-marg {
-    margin-top: 10em;
+    margin-top: 10.5em;
 }
 
 .media-link {
@@ -328,8 +314,16 @@ header.masthead {
     padding: 0px;
 }
 
+.fa-ul {
+    margin-left: 1.5em;
+}
+
 ul li {
     list-style: none;
+}
+
+.iconsize {
+    font-size: 14px;
 }
 
 .padding {
@@ -360,31 +354,11 @@ p {
 }
 
 .white {
-    color: #FFFFFF;
+    color: #fff;
 }
 /*.media-link {
     padding: 0px;
 }*/
-
-.email {
-    background: url('/assets/external-icons/email.png') no-repeat left top;
-    padding-left: 30px;
-}
-
-.slack {
-    background: url('/assets/external-icons/slack.png') no-repeat left top;
-    padding-left: 30px;
-}
-
-.discord {
-    background: url('/assets/external-icons/discord.png') no-repeat left top;
-    padding-left: 30px;
-}
-
-.github {
-    background: url('/assets/external-icons/github.png') no-repeat left top;
-    padding-left: 30px;
-}
 
 .button:hover {
     background-color: #4879c4;

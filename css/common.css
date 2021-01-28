@@ -73,6 +73,9 @@ h2 {
   margin: 0px;
 }
 
+.navbar {
+    background-color: #fff;
+}
 .navbar-brand {
   font-size: 2rem;
   margin-left: 5vw;
@@ -80,7 +83,7 @@ h2 {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-right: 1vw;
 }
 
@@ -92,8 +95,18 @@ h2 {
   text-decoration: underline;
 }
 
+.fa-angle-down {
+    font-size: 1rem;
+    margin-left: 0.3vw;
+    -webkit-text-stroke: 1px white;
+}
+
+.fa-search {
+    font-size: 1rem;
+    -webkit-text-stroke: 1px white;
+}
 .bottom-border {
-  margin-bottom: 5vh;
+    margin-bottom: 5vh;
 }
 
 html {

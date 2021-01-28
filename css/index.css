@@ -72,7 +72,7 @@ header.masthead {
 
 .vc-btn {
     background-color: #3366ff;
-    color: white;
+    color: #fff;
     border-radius: 6px;
     text-align: center;
     font-size: 16px;
@@ -181,24 +181,24 @@ header.masthead {
 }
 
 .why-vcpkg-img-1 {
-    background: url('/assets/icons/easy_to_use.PNG') no-repeat center top;
+    background: url('/assets/icons/easy_to_use.png') no-repeat center top;
 }
 
 .why-vcpkg-img-2 {
-    background: url('/assets/icons/cross_platform.PNG') no-repeat center top;
+    background: url('/assets/icons/cross_platform.png') no-repeat center top;
 }
 
 .why-vcpkg-img-3 {
-    background: url('/assets/icons/architecture_agnostic.PNG') no-repeat center top;
+    background: url('/assets/icons/architecture_agnostic.png') no-repeat center top;
 }
 
 .why-vcpkg-img-4 {
-    background: url('/assets/icons/high_quality_catalog.PNG') no-repeat center top;
+    background: url('/assets/icons/high_quality_catalog.png') no-repeat center top;
     margin-top: 50px;
 }
 
 .why-vcpkg-img-5 {
-    background: url('/assets/icons/open_source_project.PNG') no-repeat center top;
+    background: url('/assets/icons/open_source_project.png') no-repeat center top;
     margin-top: 50px;
 }
 
@@ -252,7 +252,7 @@ header.masthead {
 }
 
 .footer {
-    background: url('/assets/external-icons/footer.png') no-repeat center bottom;
+    background: url('/assets/icons/footer.png') no-repeat center bottom;
     background-size: cover;
     /*border: 5px solid green;*/
     height: 25em;
@@ -266,10 +266,11 @@ header.masthead {
     height: 5em;
     width: 10em;
     background-size: cover;
-    background: url('/assets/mark/favicon-footer.png') no-repeat left top;
+    background: url('/assets/mark/mark-footer.svg') no-repeat left top;
     margin-top: 10em;
     margin-left: 12em;
 }
+
 
 .contact-font {
     font-size: 30px;
@@ -296,14 +297,6 @@ header.masthead {
 li a {
     color: #fff;
 }
-
-/*.footer a.hover {
-    color: white;
-}
-
-.footer a.active {
-    color: white;
-}*/
 
 .no-marg {
     margin-top: 10.5em;

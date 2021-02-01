@@ -31,8 +31,7 @@ header.masthead {
 .title-text {
     text-align: left;
     position: absolute;
-    margin: 7em 0 0 25em;
-    transform: rotate(25deg);
+    margin: 8em 0 0 8em;
 }
 
 .vcpkg-title {
@@ -48,26 +47,23 @@ header.masthead {
 }
 
 .vcpkg-img-left {
-    height: 800px;
-    width: 950px;
-    margin: 5em 0 0 -7em;
+    height: 60vw;
+    width: 110vh;
     position: relative;
     background: url('/assets/mark/mark-upper-left.svg') no-repeat left top;
+    background-position: -20rem -1em;
     background-size: cover;
-    transform: rotate(-25deg);
 }
 
 .vcpkg-img-right {
-    height: 800px;
-    width: 1000px;
+    height: 62vw;
+    width: 110vh;
     position: absolute;
     right: -37em;
-    top: 25em;
+    top: 16em;
     background: url('/assets/mark/mark-lower-right.svg') no-repeat right bottom;
-    background-position: right -11em bottom -5em;
+    background-position: right 1em bottom -5em;
     background-size: cover;
-    transform: rotate(-25deg);
-    overflow: hidden;
 }
 
 .vc-btn {
@@ -77,10 +73,9 @@ header.masthead {
     text-align: center;
     font-size: 16px;
     border: none;
-    margin-left: 380px;
-    margin-top: 170px;
+    margin-left: 8em;
+    margin-top: 16em;
     width: 120px;
-    transform: rotate(25deg);
     position: relative;
     display: inline-block;
 }
@@ -92,10 +87,9 @@ header.masthead {
     text-align: center;
     font-size: 16px;
     border: 1px;
-    margin-left: 500px;
-    margin-top: 42px;
+    margin-left: 1em;
+    margin-top: 16em;
     width: 160px;
-    transform: rotate(25deg);
     position: relative;
     display: inline-block;
 }
@@ -133,7 +127,6 @@ header.masthead {
     margin-top: 240px;
     position: absolute;
     text-align: left;
-    transform: rotate(25deg);
     font-size: 10px;
 }
 
@@ -291,7 +284,7 @@ header.masthead {
 }
 
 .footer-font {
-     font-weight: bold;
+    font-weight: bold;
 }
 
 .footer li a {

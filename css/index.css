@@ -245,14 +245,23 @@ header.masthead {
 }
 
 .footer {
-    background: url('/assets/icons/footer.png') no-repeat center bottom;
-    background-size: cover;
-    /*border: 5px solid green;*/
     height: 25em;
-    width: 90em;
+    width: 200%;
     margin-left: -1em;
-    margin-bottom: 0px;
+    background-color: #fbac21;
+    background-image: linear-gradient(to right, #f9bc30,#fbac21);
 }
+
+    .footer::before {
+        content: '';
+        position: absolute;
+        margin-left: -1em;
+        margin-top: -9em;
+        width: 110%;
+        height: 15em;
+        border-radius: 90%;
+        background-color: #fff;
+    }
 
 .footer-favicon {
     position: relative;
